@@ -1,12 +1,11 @@
+import NotFoundImage from "../../assets/images/not-found-page.gif";
 
 const NotFound = () => {
   return (
-    <div>
-        <h1>
-            404 not found...........
-        </h1>
+    <div style={{ textAlign: "center" }}>
+      <img src={NotFoundImage} alt="" />
     </div>
-  )
-}
+  );
+};
 
-export default NotFound
+export default NotFound;
