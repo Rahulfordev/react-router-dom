@@ -1,0 +1,25 @@
+.posts__details {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.psots__detail--one {
+  background: #6499e9;
+  padding: 1rem;
+  border-radius: 8px;
+  max-width: 792px;
+}
+
+.post__details--container {
+  padding: 1rem 0;
+}
+
+.post__details--id,
+.post__details--title {
+  font-family: "Jost", sans-serif;
+}
