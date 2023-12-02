@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Jost", sans-serif;
   --color1: black;
   --color2: rgb(196, 230, 239);
 }
@@ -37,7 +39,9 @@ body {
 .menu li a {
   display: inline-block;
   text-decoration: none;
-  color: var(--color1);
+  /* color: var(--color1); */
+  font-weight: 500;
+  color: #5272f2;
   text-align: center;
   transition: 0.15s ease-in-out;
   position: relative;
@@ -50,8 +54,8 @@ body {
   bottom: 0;
   left: 0;
   width: 0;
-  height: 1px;
-  background-color: var(--color1);
+  height: 2px;
+  background-color: #5272f2;
   transition: 0.3s ease-in-out;
 }
 
