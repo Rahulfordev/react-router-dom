@@ -1,6 +1,51 @@
 .users {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
   margin-inline: auto;
+  max-width: 1290px;
+  margin-bottom: 1rem;
+}
+
+.user__container {
+  background: #6499e9;
+  color: #fff;
+  border-radius: 5px;
+  padding: 1rem 0px 1rem 1rem;
+}
+
+.user__name,
+.user__userName,
+.user__email {
+  font-family: "Jost", sans-serif;
+}
+
+.user__content {
+  height: 130px;
+}
+
+@media screen and (max-width: 900px) {
+  .users {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-inline: auto;
+  }
+  .user__container {
+    width: 337px;
+    margin-inline: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .users {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    margin-inline: auto;
+  }
+  .user__container {
+    width: 337px;
+    margin-inline: auto;
+  }
 }

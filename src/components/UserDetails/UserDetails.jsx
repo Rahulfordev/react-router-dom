@@ -1,4 +1,5 @@
 import { Link, useLoaderData } from "react-router-dom";
+import "./UserDetails.css";
 
 const UserDetails = () => {
   const {
@@ -10,18 +11,22 @@ const UserDetails = () => {
   } = useLoaderData();
 
   return (
-    <div>
-      <h1>ID: {id}</h1>
-      <h1>Name: {name}</h1>
-      <h1>userName: {username}</h1>
-      <h1>Email: {email}</h1>
-      <h1>Street: {street}</h1>
-      <h1>Suite: {suite}</h1>
-      <h1>City: {city}</h1>
-      <h1>ZipCode: {zipcode}</h1>
-      <Link to={`/users`}>
-        <button>Back to All Users</button>
-      </Link>
+    <div className="user__details">
+      <div className="user__container--one">
+        <div className="user__details--container">
+          <h3 className="user__details--id">ID: {id}</h3>
+          <h3>Name: {name}</h3>
+          <h3>userName: {username}</h3>
+          <h3>Email: {email}</h3>
+          <h3>Street: {street}</h3>
+          <h3>Suite: {suite}</h3>
+          <h3>City: {city}</h3>
+          <h3>ZipCode: {zipcode}</h3>
+        </div>
+        <Link to={`/users`}>
+          <button>Back to All Users</button>
+        </Link>
+      </div>
     </div>
   );
 };

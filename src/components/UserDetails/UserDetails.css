@@ -1,0 +1,28 @@
+.user__details {
+  color: #fff;
+  font-family: "Jost", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.user__container--one {
+  background: #6499e9;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.user__details--container {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .user__container--one {
+    background: #6499e9;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+}

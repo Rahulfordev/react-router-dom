@@ -1,6 +1,46 @@
 .posts {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 1rem;
   margin-inline: auto;
+  max-width: 1290px;
+  padding: 1rem;
+}
+
+.post__container {
+  background: #6499e9;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.post__title,
+.post__id {
+  font-family: "Jost", sans-serif;
+}
+
+.post__body {
+  font-family: "Poppins", sans-serif;
+}
+
+.post__content {
+  height: 220px;
+}
+
+@media screen and (max-width: 900px) {
+  .posts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-inline: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .posts {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    margin-inline: auto;
+  }
 }

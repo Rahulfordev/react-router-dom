@@ -1,4 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+button {
+  font-size: inherit;
+  color: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  padding: 10px 18px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 5px;
+  color: #6499e9;
+  &:hover {
+    color: #fff;
+    background-color: #9eddff;
+  }
+}
+
 .layout {
-  background-color: tan;
+  /* background-color: #9EDDFF; */
   min-height: 80vh;
+
+  font-family: "Jost", sans-serif;
+  font-family: "Roboto", sans-serif;
 }

@@ -6,9 +6,11 @@ const User = ({ user }) => {
   return (
     <div className="user__container">
       <div className="user__info">
-        <h3>{name}</h3>
-        <h3>{username}</h3>
-        <h3>{email}</h3>
+        <div className="user__content">
+          <h3 className="user__name">Name: {name}</h3>
+          <h3 className="user__userName">User Name: {username}</h3>
+          <h3 className="user__email">Email: {email}</h3>
+        </div>
         <Link to={`/users/${id}`}>
           <button>User Details</button>
         </Link>

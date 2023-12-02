@@ -1,0 +1,27 @@
+.not-found-image {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+@media screen and (max-width: 900px) {
+  .not-found-image {
+    text-align: center;
+  }
+
+  .not-found-image img {
+    width: 900px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .not-found-image {
+    text-align: center;
+  }
+
+  .not-found-image img {
+    width: 500px;
+  }
+}
