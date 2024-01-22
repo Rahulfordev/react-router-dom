@@ -21,8 +21,9 @@ button {
 }
 
 .layout {
-  background-color: #98e4ff; 
-  min-height: 80vh; 
+  /* background-color: #98e4ff;  */
+  background-color: rgb(196, 230, 239);
+  min-height: 80vh;
   font-family: "Jost", sans-serif;
   font-family: "Roboto", sans-serif;
   margin-bottom: 1rem;

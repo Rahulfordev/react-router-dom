@@ -6,10 +6,15 @@
   padding: 0;
 }
 
+li {
+  list-style: none;
+}
+
 body {
   font-family: "Jost", sans-serif;
   --color1: black;
-  --color2: rgb(196, 230, 239);
+  /* --color2: rgb(196, 230, 239); */
+  --color2: #98e4ff;
 }
 
 .nav-bar {

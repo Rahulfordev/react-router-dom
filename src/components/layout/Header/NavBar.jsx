@@ -31,6 +31,7 @@ const NavBar = () => {
           <li>
             <Link to="/contact">Contact</Link>
           </li>
+
           <label htmlFor="check" className="close-menu">
             <i className="fas fa-times"></i>
           </label>
